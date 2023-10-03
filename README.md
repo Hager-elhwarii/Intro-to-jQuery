@@ -14,5 +14,3 @@ jQuery is a JavaScript library that provides you with a lot of dynamic behavior 
 ## Take-Away Skills:
 You will learn how to add jQuery to web pages and how to traverse the DOM. You’ll also learn how to use effects, event handlers and style methods.
 
-## Note on Prerequisites:
-There aren’t any prerequisites for this lesson, but a basic understanding of JavaScript will help you understand the programming logic.
