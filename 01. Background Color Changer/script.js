@@ -1,3 +1,5 @@
+
+
 $(function () {
   $("#color-input").on("change input", function () {
     // Change body background color.

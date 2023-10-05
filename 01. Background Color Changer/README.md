@@ -2,6 +2,6 @@
 
 - a Background Color Changer With Input Type Color Using jQuery.
 
-## :camera_flash: Screenshoot
+## :camera_flash: Demo GIF
 
-![image](https://github.com/Hager-elhwarii/Intro-to-jQuery/assets/80959882/b047e1cd-518e-42da-9485-c5c4ecdd56cc)
+![background-changer](https://github.com/Hager-elhwarii/Intro-to-jQuery/assets/80959882/6c66ca4d-168b-4d20-8d34-02bbd3ccee64)
