@@ -1,4 +1,4 @@
-# Custom Cursor 
+# Custom Cursor :bulb:
 - Simple Custom Cursor Using CSS Only, and jQuery.
 
 ## :camera_flash: Demo GIF
