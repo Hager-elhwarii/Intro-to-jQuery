@@ -1,14 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Inter:wght@300&family=Manrope:wght@300&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600&family=Quicksand&family=Raleway&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Inter:wght@300&family=Manrope:wght@300&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600;900&family=Quicksand&family=Raleway&display=swap");
 /*===================
     GENERAL STYLING
   ===================*/
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  background-color: #e3001f;
+}
+
+/*===================
+   CONTAINER STYLING
+  ===================*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container > h1 {
+  font-size: 22rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1;
+  cursor: default;
+}
+
+.cursor {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.1s ease-out;
+  /*
+  - The pointer-events property defines
+  whether or not an element reacts to pointer events.
+ */
+  pointer-events: none;
+  /*
+  - The mix-blend-mode property specifies
+   how an element's content should blend 
+   with its direct parent background. 
+ */
+  mix-blend-mode: difference;
+}
+
+h1:hover + .cursor {
+  transform: scale(12);
 }
