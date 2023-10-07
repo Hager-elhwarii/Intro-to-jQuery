@@ -1,5 +1,4 @@
 
-
 $(function () {
   $(".tab").on("click", function () {
     // Add class so when on click it's color opacity increase.
