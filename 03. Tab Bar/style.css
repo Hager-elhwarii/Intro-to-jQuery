@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Inter:wght@300&family=Manrope:wght@300&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600;900&family=Quicksand&family=Raleway&display=swap");
+
 /*===================
     GENERAL STYLING
   ===================*/
@@ -10,5 +12,73 @@
   font-size: 62.5%;
 }
 body {
-    height: 100vh;
+  height: 100vh;
+  background-color: #8fb8dd;
+  font-family: "Poppins", sans-serif;
+}
+
+/*===================
+  ===================
+  ===================*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.tabs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.2rem 5.7rem;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 30px;
+  background-color: #eee;
+}
+.tabs::before {
+  content: "";
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  height: 4rem;
+  width: calc(100% - 6.5rem);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5rem;
+  filter: blur(3rem);
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  opacity: 0.4;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.tabs .tab.is_active {
+  opacity: 0.8 !important;
+}
+iconify-icon {
+  font-size: 4.4rem;
+}
+.tab > span {
+  display: block;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.tab_indicator {
+  width: 5.2rem;
+  height: 0.3rem;
+  background-color: #32323a;
+  position: absolute;
+  bottom: 0;
+  left: 5.4rem;
+  border-radius: 5rem;
+  transition: all 0.3s;
 }
