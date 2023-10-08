@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Inter:wght@300&family=Manrope:wght@300&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600;900&family=Quicksand&family=Raleway&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Inter:wght@300&family=Manrope:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600;900&family=Quicksand&family=Raleway&display=swap");
 /*===================
     GENERAL STYLING
   ===================*/
@@ -13,8 +12,91 @@
 }
 body {
   height: 100vh;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: #faf8f8;
 }
 
 /*===================
   ===================*/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1::first-letter {
+  text-transform: capitalize;
+}
+h1 {
+  padding: 3rem 0;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 1rem;
+  /* The box-reflect property is used to create an image reflection. */
+  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#00000050);
+}
+
+.container > div {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 860px;
+  flex-wrap: wrap;
+}
+
+.wrapper span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper span:nth-child(1) {
+  width: 180px;
+  height: 50px;
+  color: #faf8f8;
+  background-color: #008c9e;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.wrapper:nth-of-type(2) span:nth-child(1) {
+    background-color: #6fb40a;
+}
+.wrapper:nth-of-type(3) span:nth-child(1) {
+    background-color: #c54800;
+}
+.wrapper:nth-of-type(4) span:nth-child(1) {
+    background-color: #22a568;
+}
+.wrapper span:nth-child(2) {
+    height: 150px;
+    color: #faf8f8;
+    background-color: #00b2cb;
+    font-size: 9rem;
+    width: 100%;
+  }
+
+.wrapper:nth-of-type(2) span:nth-child(2) {
+    background-color: #8ee80e;
+}
+.wrapper:nth-of-type(3) span:nth-child(2) {
+    background-color: #ff5d00;
+}
+.wrapper:nth-of-type(4) span:nth-child(2) {
+    background-color: #2ad582;
+}
+

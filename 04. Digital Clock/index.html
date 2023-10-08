@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- External Stylesheet Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- jQuery CDN Link -->
     <script
-    src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
-    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
-    crossorigin="anonymous"
-  ></script>
-</head>
-<body>
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>this is the current time.</h1>
+      <div>
+        <div class="wrapper">
+            <span>hours</span>
+            <span id="hours">00</span>
+          </div>
+          <div class="wrapper">
+            <span>minutes</span>
+            <span id="min">00</span>
+          </div>
+          <div class="wrapper">
+            <span>seconds</span>
+            <span id="sec">00</span>
+          </div>
+          <div class="wrapper">
+            <span>period</span>
+            <span id="period">am</span>
+          </div>
+      </div>
     
+    </div>
+    <!-- jQuery Script File  -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
