@@ -1,0 +1,21 @@
+/*===================
+    GENERAL STYLING
+  ===================*/
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    font-size: 62.5%;
+  }
+  body {
+    height: 100vh;
+    background-color: #070707;
+    font-family: "poppins", sans-serif;
+    color: #fff;
+  }
+  
+  /*===================
+    ===================*/
