@@ -2,20 +2,164 @@
     GENERAL STYLING
   ===================*/
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  :root {
-    font-size: 62.5%;
-  }
-  body {
-    height: 100vh;
-    background-color: #070707;
-    font-family: "poppins", sans-serif;
-    color: #fff;
-  }
-  
-  /*===================
-    ===================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "roboto", sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*===================
+  ===================*/
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  height: 500px;
+  padding: 48px 40px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+}
+.container > div:first-child {
+  width: 100%;
+  text-align: center;
+}
+.container > div:first-child img {
+  width: 100%;
+  max-width: 7.8rem;
+  object-fit: cover;
+  user-select: none;
+}
+.form-wrapper h1:first-letter {
+  text-transform: capitalize;
+}
+.form-wrapper h1 {
+  padding-top: 12px;
+  text-align: center;
+  font-size: 24px;
+  color: #202124;
+  font-family: "productsans", sans-serif;
+  font-weight: 400;
+}
+.form-wrapper span {
+  display: block;
+  padding-top: 10px;
+  color: #202124;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+form {
+  padding-top: 24px;
+}
+form .input-wrapper {
+  width: 100%;
+  margin: 18px 0 8px;
+  position: relative;
+}
+form .input-wrapper .input-field {
+  width: 100%;
+  min-width: 360px;
+  height: 55px;
+  padding: 14px 15px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 150ms ease-in;
+}
+form .input-wrapper .input-field:focus {
+  border: 2px solid #1a73e8;
+}
+/* 
+ Note => the ::first-letter pseudo-element to work, 
+ it must be applied to block-level elements.
+*/
+form .input-wrapper .placeholder::first-letter {
+  text-transform: capitalize;
+}
+form .input-wrapper .placeholder {
+  display: block;
+  font-size: 1.4rem;
+  padding: 0 8px 3px 8px;
+  background-color: #fff;
+  color: #80868b;
+  font-weight: 400;
+  pointer-events: none;
+  position: absolute;
+  top: 18px;
+  left: 8px;
+  transform-origin: bottom left;
+  transition: all 150ms;
+}
+form .input-wrapper .input-field:focus + .placeholder {
+  color: #1a73e8;
+}
+form .input-wrapper .input-field:focus + .placeholder,
+form .input-wrapper .input-field.has-value + .placeholder {
+  transform: scale(0.95) translateY(-27px);
+}
+
+.forget-password,
+.create-account {
+  display: block;
+  padding: 8px 10px;
+  color: #1a73e8;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 150ms;
+  border-radius: 2px;
+}
+
+.create-account:hover {
+  background-color: rgba(210, 210, 236, 0.2);
+}
+
+.forget-password::first-letter,
+.create-account::first-letter {
+  text-transform: capitalize;
+}
+.btns {
+  width: 100%;
+  margin: 5rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in {
+  padding: 10px 24px;
+  background-color: #1a73e8;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "productsans", sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 150ms;
+}
+.sign-in:hover {
+  box-shadow: 0 2px 5px #1a73e83b;
+}
+.sign-in:active {
+  box-shadow: none;
+}
