@@ -20,8 +20,6 @@
 >  You will learn how to add jQuery to web pages and how to traverse the `DOM`. You’ll also learn how to use effects, `event handlers` and style methods.
 
 ## 🚀 Deployment Links 
-  - <a href='https://background-changer-dottie.netlify.app/' target='_blank'>Background Changer</a>
-  
   - [Background Changer](https://background-changer-dottie.netlify.app/)
     
   - [Custom Cursor](https://custom-cursor-dottie.netlify.app/)
