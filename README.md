@@ -7,37 +7,52 @@
 ## 📸  Screenshoot
 ![image](https://github.com/Hager-elhwarii/Intro-to-jQuery/assets/80959882/3db059da-9f01-43b7-a34e-b29c9c26099b)
 
-## About this course
-With HTML and CSS, you can build visually appealing static web pages. With a bit of JavaScript, you can add dynamic behavior to these static websites.
+## 🌸 About this Repo
+- With HTML and CSS, you can build visually appealing static web pages. With a bit of JavaScript, you can add dynamic behavior to these static websites.
 
-jQuery is a JavaScript library that provides you with a lot of dynamic behavior “out-of-the-box”, allowing you to add some creative effects to otherwise dull layouts.
+- jQuery is a JavaScript library that provides you with a lot of dynamic behavior “out-of-the-box”, allowing you to add some creative effects to otherwise dull layouts.
 
-## Take-Away Skills:
-You will learn how to add jQuery to web pages and how to traverse the DOM. You’ll also learn how to use effects, event handlers and style methods.
+## 🤸 Take-Away Skills:
+- You will learn how to add jQuery to web pages and how to traverse the DOM. You’ll also learn how to use effects, event handlers and style methods.
 
 
 ## 🚀 Deployment Links
-  <div width='49%'>
+<div width='100%'>
+   <div width='49%'>
+     
     - [Background Changer]
+    
     - [Custom Cursor]
+    
     - [Tab Bar]
+    
     - [Digital Clock]
+    
     - [Dark Theme Toggle]
+    
   </div>
-  <div width='49%'>
+  
+   <div width='49%'>
+    
     - [Card Hover Effects]
+    
     - [Image Gallery]
+    
     - [Google Form]
+    
     - [Film Slider]
+    
     - [Calculator]
+    
   </div>
-
+</div>
+ 
 ## 💻 Tech stack
 - Html
 - CSS
 - jQuery
 
-## ⚙️ jQuery CDN Reference
+## ⚙️ jQuery Cdn Reference
 
 ```
 https://releases.jquery.com/
