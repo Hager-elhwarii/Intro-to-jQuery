@@ -17,7 +17,6 @@
 
 
 ## 🚀 Deployment Links
-<div width='100%'>
    <div width='49%'>
      
     - [Background Changer]
@@ -45,7 +44,7 @@
     - [Calculator]
     
   </div>
-</div>
+
  
 ## 💻 Tech stack
 - Html
