@@ -1,6 +1,6 @@
 # Intro to jQuery :bulb:
 <a name="readme-top"></a>
-- Learn the basics of `jQuery`, a JavaScript library that allows you to easily
+- Learn the basics of jQuery, `a JavaScript library` that allows you to easily
   
    add dynamic behavior to static web pages.
   
@@ -12,8 +12,10 @@
 
 - `jQuery` is a JavaScript library that provides you with a lot of dynamic behavior “out-of-the-box”, allowing you to add some creative effects to otherwise dull layouts.
 
+- In this `intro-to-jQuery` repository, I Learned the basics of jQuery by doing **10 simple projects. 
+
 ## 🤸 Take-Away Skills:
-> - You will learn how to add jQuery to web pages and how to traverse the `DOM`. You’ll also learn how to use effects, `event handlers` and style methods.
+>  You will learn how to add jQuery to web pages and how to traverse the `DOM`. You’ll also learn how to use effects, `event handlers` and style methods.
 
 ## 🚀 Deployment Links 
   - [Background Changer](https://background-changer-dottie.netlify.app/)
@@ -58,6 +60,12 @@ https://github.com/Hager-elhwarii/Intro-to-jQuery.git
 - [Google Fonts](http://hager.a.elhawary@gmail.com/)
 - [Iconify Design](https://iconify.design/)
 - [Netlify](https://www.netlify.com/)
+
+
+## 🌼 Resources
+- [Intro to jQuery](https://www.udacity.com/course/intro-to-jquery--ud245)
+- [jQuery Tutorial](https://www.w3schools.com/jquery/default.asp)
+- [Basic jQuery Course](https://www.udemy.com/course/free-jquery-beginners/)
 
 ## 🦄   Author
 If you want to get in-touch with me you can reach me at:
