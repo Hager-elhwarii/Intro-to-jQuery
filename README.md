@@ -12,7 +12,7 @@
 
 - `jQuery` is a JavaScript library that provides you with a lot of dynamic behavior “out-of-the-box”, allowing you to add some creative effects to otherwise dull layouts.
 
-- In this `intro-to-jQuery` repository, I Learned the basics of jQuery by doing **10 simple projects. 
+- In this `intro-to-jQuery` repository, I Learned the basics of jQuery by doing **10 Simple Projects.** 
 
 ## 🤸 Take-Away Skills:
 >  You will learn how to add jQuery to web pages and how to traverse the `DOM`. You’ll also learn how to use effects, `event handlers` and style methods.
@@ -43,7 +43,7 @@
 - CSS
 - jQuery
 
-## ⚙️ jQuery Cdn Reference
+## ⚙️ jQuery CDN Reference
 
 ```
 https://releases.jquery.com/
