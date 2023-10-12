@@ -10,13 +10,8 @@
 
     <!-- Google Fonts Link -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Exo+2:wght@600&family=Inter:wght@300&family=Manrope:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600;900&family=Quicksand&family=Raleway&family=Russo+One&family=Source+Sans+3&family=Titan+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300;400&family=Exo+2:wght@600&family=Inter:wght@300&family=Manrope:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Poppins:wght@300;400;600;900&family=Quicksand:wght@400;500&family=Raleway&family=Russo+One&family=Source+Sans+3&family=Titan+One&display=swap"
       rel="stylesheet"
-    />
-    <!-- Font Awesome CDN Link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
     <!-- Favicon Link -->
@@ -33,43 +28,49 @@
   </head>
   <body>
     <div class="container">
-        <div class="wrapper">
-            <form name="form">
-                <input class="calc-display" autofocus />
-              </form>
-              <table>
-                <tr>
-                  <td><input type="button" class="clear" value="C" /></td>
-                  <td><input type="button" class="btn" value="%" /></td>
-                  <td><input type="button" class="btn" value="/" /></td>
-                  <td><input type="button" class="btn" value="*" /></td>
-                </tr>
-                <tr>
-                  <td><input type="button" class="btn" value="7" /></td>
-                  <td><input type="button" class="btn" value="8" /></td>
-                  <td><input type="button" class="btn" value="9" /></td>
-                  <td><input type="button" class="btn" value="-" /></td>
-                </tr>
-                <tr>
-                  <td><input type="button" class="btn" value="4" /></td>
-                  <td><input type="button" class="btn" value="5" /></td>
-                  <td><input type="button" class="btn" value="6" /></td>
-                  <td><input type="button" class="btn" value="+" /></td>
-                </tr>
-                <tr>
-                  <td><input type="button" class="btn" value="1" /></td>
-                  <td><input type="button" class="btn" value="2" /></td>
-                  <td><input type="button" class="btn" value="3" /></td>
-                  <td colspan="2">
-                    <input type="button" class="equal-symbol" value="=" />
-                  </td>
-                </tr>
-                <tr>
-                  <td rowspan="2"><input type="button" class="btn" value="0" /></td>
-                  <td><input type="button" class="btn" value="." /></td>
-                </tr>
-              </table>
-        </div>
+      <div class="wrapper">
+        <form name="form">
+          <input class="calc-display" autofocus />
+        </form>
+        <table>
+          <tr>
+            <td><input type="button" class="clear red" value="C" /></td>
+            <td><input type="button" class="btn gray" value="%" /></td>
+            <td><input type="button" class="btn gray" value="/" /></td>
+            <td><input type="button" class="btn gray" value="*" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" value="7" /></td>
+            <td><input type="button" class="btn" value="8" /></td>
+            <td><input type="button" class="btn" value="9" /></td>
+            <td><input type="button" class="btn" value="-" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" value="4" /></td>
+            <td><input type="button" class="btn" value="5" /></td>
+            <td><input type="button" class="btn" value="6" /></td>
+            <td><input type="button" class="btn" value="+" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" value="1" /></td>
+            <td><input type="button" class="btn" value="2" /></td>
+            <td><input type="button" class="btn" value="3" /></td>
+            <td rowspan="2">
+              <input
+                type="button"
+                class="equal-symbol db-height black"
+                value="="
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="button" class="btn db-width" value="0" />
+            </td>
+            <td><input type="button" class="btn" value="." /></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </body>
 </html>
