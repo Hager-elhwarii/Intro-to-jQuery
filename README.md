@@ -79,5 +79,5 @@ If you want to get in-touch with me you can reach me at:
 This project is totally free,  and does not contain any license.
 
 
- <script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
+!function(){for(var e=document.body.getElementsByTagName("a"),t=e.length,n=0;n<t;n++)new URL(e[n].href).origin!==location.origin&&e[n].setAttribute("target","_blank")}();
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
