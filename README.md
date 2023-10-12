@@ -5,7 +5,8 @@
    add dynamic behavior to static web pages.
   
 ## 📸  Screenshoot
-![image](https://github.com/Hager-elhwarii/Intro-to-jQuery/assets/80959882/3db059da-9f01-43b7-a34e-b29c9c26099b)
+![image](https://github.com/Hager-elhwarii/Intro-to-jQuery/assets/80959882/816c07a6-ebb0-4f08-974e-3c7c8fa36147)
+
 
 ## 🌸 About this Repo
 - With HTML and CSS, you can build visually appealing static web pages. With a bit of `JavaScript`, you can add dynamic behavior to these static websites.
