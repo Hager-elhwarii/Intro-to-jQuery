@@ -54,7 +54,7 @@ https://releases.jquery.com/
 ##  🔐 Run locally 
 
 ```bash
-https://github.com/Hager-elhwarii/Intro-to-jQuery.git
+git clone https://github.com/Hager-elhwarii/Intro-to-jQuery.git
 ```
 
 ## 📌 Acknowledgments
@@ -76,7 +76,7 @@ If you want to get in-touch with me you can reach me at:
 -  [GitHub](https://github.com/Hager-elhwarii)
 
 ## 📘 License
-This project is totally free,  and does not contain any license.
+This project is **Totally Free**,  and does not contain any license.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
